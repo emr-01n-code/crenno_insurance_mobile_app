@@ -1,0 +1,62 @@
+{
+  "common": {
+    "retry": "Tekrar Dene",
+    "cancel": "İptal",
+    "ok": "Tamam"
+  },
+  "policies": {
+    "title": "Poliçelerim",
+    "refresh_tooltip": "Yenile",
+    "loading": "Poliçeler yükleniyor…",
+    "empty_title": "Aktif poliçe yok",
+    "empty_message": "Bu hesaba bağlı aktif bir poliçe bulunmuyor."
+  },
+  "policy_detail": {
+    "title": "Poliçe Detayı",
+    "loading": "Detaylar yükleniyor…",
+    "holder": "Poliçe Sahibi",
+    "start_date": "Başlangıç Tarihi",
+    "end_date": "Bitiş Tarihi",
+    "coverage": "Teminat Tutarı",
+    "status": "Durum",
+    "status_active": "Aktif",
+    "status_expired": "Süresi Dolmuş",
+    "status_active_short": "Aktif",
+    "status_passive_short": "Pasif",
+    "file_claim": "Hasar Bildir"
+  },
+  "policy_types": {
+    "vehicle": "Araç Sigortası",
+    "health": "Sağlık Sigortası",
+    "home": "Konut Sigortası",
+    "other": "Diğer Sigorta"
+  },
+  "claim": {
+    "title": "Hasar Bildirimi",
+    "intro_title": "Olayın detaylarını paylaşın",
+    "intro_text": "Bilgiler mümkün olan en kısa sürede eksperlerimiz tarafından incelenecektir.",
+    "date_label": "Olay Tarihi",
+    "date_hint": "Tarih seçin",
+    "date_picker_help": "Olay tarihi seçin",
+    "date_required": "Lütfen olay tarihini seçin",
+    "date_in_future": "Tarih gelecekte olamaz",
+    "date_outside_coverage": "Olay tarihi poliçe geçerlilik aralığının dışında.",
+    "description_label": "Olay Açıklaması",
+    "description_hint": "Olayın detaylarını kısaca yazın…",
+    "description_required": "Açıklama zorunludur",
+    "description_too_short": "Açıklama en az 10 karakter olmalı",
+    "submit": "Gönder",
+    "success_message": "Hasar bildiriminiz alındı."
+  },
+  "errors": {
+    "title": "Bir sorun oluştu",
+    "network": "İnternet bağlantınızı kontrol edip tekrar deneyin.",
+    "timeout": "Sunucu yanıt vermiyor. Lütfen tekrar deneyin.",
+    "server": "Beklenmeyen bir sunucu hatası oluştu. Lütfen tekrar deneyin.",
+    "not_found": "İstenen kayıt bulunamadı.",
+    "parsing": "Veri okunurken bir hata oluştu. Lütfen daha sonra tekrar deneyin.",
+    "unknown": "Bilinmeyen bir hata oluştu.",
+    "page_not_found_title": "Sayfa bulunamadı",
+    "page_not_found_message": "Aradığınız sayfa mevcut değil."
+  }
+}

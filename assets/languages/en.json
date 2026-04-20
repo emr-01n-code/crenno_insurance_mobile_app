@@ -1,0 +1,62 @@
+{
+  "common": {
+    "retry": "Try Again",
+    "cancel": "Cancel",
+    "ok": "OK"
+  },
+  "policies": {
+    "title": "My Policies",
+    "refresh_tooltip": "Refresh",
+    "loading": "Loading policies…",
+    "empty_title": "No active policies",
+    "empty_message": "There are no active policies linked to this account."
+  },
+  "policy_detail": {
+    "title": "Policy Details",
+    "loading": "Loading details…",
+    "holder": "Policy Holder",
+    "start_date": "Start Date",
+    "end_date": "End Date",
+    "coverage": "Coverage Amount",
+    "status": "Status",
+    "status_active": "Active",
+    "status_expired": "Expired",
+    "status_active_short": "Active",
+    "status_passive_short": "Inactive",
+    "file_claim": "File a Claim"
+  },
+  "policy_types": {
+    "vehicle": "Vehicle Insurance",
+    "health": "Health Insurance",
+    "home": "Home Insurance",
+    "other": "Other Insurance"
+  },
+  "claim": {
+    "title": "File a Claim",
+    "intro_title": "Share the details of the incident",
+    "intro_text": "Our adjusters will review your submission as soon as possible.",
+    "date_label": "Incident Date",
+    "date_hint": "Pick a date",
+    "date_picker_help": "Select the incident date",
+    "date_required": "Please select the incident date",
+    "date_in_future": "The date cannot be in the future",
+    "date_outside_coverage": "The incident date is outside the policy coverage window.",
+    "description_label": "Incident Description",
+    "description_hint": "Briefly describe what happened…",
+    "description_required": "Description is required",
+    "description_too_short": "Description must be at least 10 characters",
+    "submit": "Submit",
+    "success_message": "Your claim has been submitted."
+  },
+  "errors": {
+    "title": "Something went wrong",
+    "network": "Please check your internet connection and try again.",
+    "timeout": "The server is not responding. Please try again.",
+    "server": "An unexpected server error occurred. Please try again.",
+    "not_found": "The requested record could not be found.",
+    "parsing": "We had trouble reading the data. Please try again later.",
+    "unknown": "An unknown error occurred.",
+    "page_not_found_title": "Page not found",
+    "page_not_found_message": "The page you are looking for does not exist."
+  }
+}
