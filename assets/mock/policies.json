@@ -1,0 +1,42 @@
+[
+  {
+    "id": "p1",
+    "policyNumber": "TR-VH-2026-00123",
+    "holderName": "Emre Aydın",
+    "type": "vehicle",
+    "startDate": "2026-01-15",
+    "endDate": "2027-01-14",
+    "coverageAmount": 750000,
+    "currency": "TRY"
+  },
+  {
+    "id": "p2",
+    "policyNumber": "TR-HL-2025-00451",
+    "holderName": "Emre Aydın",
+    "type": "health",
+    "startDate": "2025-06-01",
+    "endDate": "2026-05-31",
+    "coverageAmount": 500000,
+    "currency": "TRY"
+  },
+  {
+    "id": "p3",
+    "policyNumber": "TR-HM-2026-00987",
+    "holderName": "Emre Aydın",
+    "type": "home",
+    "startDate": "2026-02-10",
+    "endDate": "2027-02-09",
+    "coverageAmount": 1250000,
+    "currency": "TRY"
+  },
+  {
+    "id": "p4",
+    "policyNumber": "TR-VH-2024-00042",
+    "holderName": "Emre Aydın",
+    "type": "vehicle",
+    "startDate": "2024-01-01",
+    "endDate": "2025-01-01",
+    "coverageAmount": 450000,
+    "currency": "TRY"
+  }
+]

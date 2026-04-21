@@ -1,0 +1,10 @@
+{
+  "id": "p2",
+  "policyNumber": "TR-HL-2025-00451",
+  "holderName": "Emre Aydın",
+  "type": "health",
+  "startDate": "2025-06-01",
+  "endDate": "2026-05-31",
+  "coverageAmount": 500000,
+  "currency": "TRY"
+}

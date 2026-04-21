@@ -1,0 +1,10 @@
+{
+  "id": "p4",
+  "policyNumber": "TR-VH-2024-00042",
+  "holderName": "Emre Aydın",
+  "type": "vehicle",
+  "startDate": "2024-01-01",
+  "endDate": "2025-01-01",
+  "coverageAmount": 450000,
+  "currency": "TRY"
+}

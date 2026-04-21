@@ -1,0 +1,10 @@
+{
+  "id": "p1",
+  "policyNumber": "TR-VH-2026-00123",
+  "holderName": "Emre Aydın",
+  "type": "vehicle",
+  "startDate": "2026-01-15",
+  "endDate": "2027-01-14",
+  "coverageAmount": 750000,
+  "currency": "TRY"
+}
