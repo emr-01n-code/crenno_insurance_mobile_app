@@ -35,11 +35,15 @@ Feature-first bir klasör yapısı kullandım, her feature kendi içinde `data /
 
 Akış kısaca: UI → Riverpod provider → use case → repository → Dio (mock interceptor) → JSON.
 
-UI tarafında `AsyncValue` ile loading / hata / veri dallarını yönetiyorum. PDF Riverpod, Bloc veya Provider dediği için Riverpod seçtim. Hataları `Failure` tipleriyle toplayıp ekranda gösteriyorum; Dio tarafındaki istisnaları buna map ediyorum.
+UI tarafında `AsyncValue` ile loading / hata / veri dallarını yönetiyorum. Hataları `Failure` tipleriyle toplayıp ekranda gösteriyorum; Dio tarafındaki istisnaları buna map ediyorum.
+
+### Neden Riverpod?
+
+Bloc düşündüm fakat bu ölçekte yani MVP çerçevesinde event/state sınıfları yazmak daha zahmetli ve karmaşık olacağını düşündüm. Riverpod provider'ları `ref.watch` ile kullanmak katmanlar arası bağımlılığı daha temiz ve sade tutuyor.
 
 ## Mock ve gerçek API
 
-Şu an her şey `MockInterceptor` ile yerel JSON’dan dönüyor. İleride gerçek bir backend bağlanırsa Dio client’ta mock’u kapatıp base URL’i değiştirmek yeterli olacak şekilde ayırdım. Mock veriyi AI ile ürettim.
+Şu an her şey `MockInterceptor` ile yerel JSON'dan dönüyor. İleride gerçek bir backend bağlanırsa Dio client'ta mock'u kapatıp base URL'i değiştirmek yeterli olacak şekilde ayırdım. Mock veriyi yapay olarak oluşturdum.
 
 ## Dil (EN–TR)
 
