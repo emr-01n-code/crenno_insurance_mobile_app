@@ -28,6 +28,7 @@ class _ClaimSubmissionPageState extends ConsumerState<ClaimSubmissionPage> {
   final _formKey = GlobalKey<FormState>();
   final _descriptionController = TextEditingController();
   DateTime? _incidentDate;
+  bool _submitted = false;
 
   @override
   void dispose() {
@@ -36,6 +37,7 @@ class _ClaimSubmissionPageState extends ConsumerState<ClaimSubmissionPage> {
   }
 
   Future<void> _onSubmit() async {
+    setState(() => _submitted = true);
     final isValid = _formKey.currentState?.validate() ?? false;
     if (!isValid || _incidentDate == null) return;
 
@@ -93,7 +95,9 @@ class _ClaimSubmissionPageState extends ConsumerState<ClaimSubmissionPage> {
           absorbing: isSubmitting,
           child: Form(
             key: _formKey,
-            autovalidateMode: AutovalidateMode.onUserInteraction,
+            autovalidateMode: _submitted
+                ? AutovalidateMode.onUserInteraction
+                : AutovalidateMode.disabled,
             child: ListView(
               padding: const EdgeInsets.all(AppSpacing.lg),
               children: [
