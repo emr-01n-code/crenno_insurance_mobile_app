@@ -121,7 +121,6 @@ class _ClaimSubmissionPageState extends ConsumerState<ClaimSubmissionPage> {
                   onChanged: (date) => setState(() => _incidentDate = date),
                 ),
                 AppSpacing.gapLg,
-                // TODO: fotoğraf/dosya ekleme
                 IncidentDescriptionField(
                   controller: _descriptionController,
                   enabled: !isSubmitting,

@@ -19,8 +19,6 @@ class PoliciesListController extends AsyncNotifier<List<Policy>> {
   }
 }
 
-// Otomatik retry kapalı; hatayı UI'da gösterip "Tekrar Dene" butonuyla
-// kullanıcıya seçim bırakıyoruz.
 final policiesListControllerProvider =
     AsyncNotifierProvider<PoliciesListController, List<Policy>>(
   PoliciesListController.new,
