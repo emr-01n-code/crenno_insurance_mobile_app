@@ -81,7 +81,7 @@ class _DetailBody extends StatelessWidget {
             ),
           ],
         ),
-        AppSpacing.gapXl,
+        const SizedBox(height: 24),
         Card(
           child: Padding(
             padding: const EdgeInsets.symmetric(

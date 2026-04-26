@@ -1,8 +1,6 @@
 import 'package:intl/intl.dart';
 
 class CurrencyFormatter {
-  CurrencyFormatter._();
-
   static String format(num amount, String currencyCode, [String? locale]) {
     final symbol = switch (currencyCode.toUpperCase()) {
       'TRY' => '₺',

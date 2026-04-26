@@ -20,6 +20,7 @@ class SubmitClaim {
     final start = _dateOnly(policy.startDate);
     final end = _dateOnly(policy.endDate);
 
+    // poliçe kapsam dışı tarihi reddet
     if (incident.isBefore(start) || incident.isAfter(end)) {
       throw const ValidationFailure('claim.date_outside_coverage');
     }

@@ -53,6 +53,7 @@ class PolicyDto {
         );
       }
 
+      // backend sometimes sends string instead of num
       final coverageRaw = json['coverageAmount'];
       final num coverageAmount;
       if (coverageRaw is num) {

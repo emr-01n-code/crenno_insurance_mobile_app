@@ -5,6 +5,8 @@ import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart' show FlutterError;
 import 'package:flutter/services.dart' show rootBundle;
 
+// Gerçek backend olmadığı için asset JSON'larından cevap dönüyor.
+// Production'da kaldırılacak.
 class MockInterceptor extends Interceptor {
   MockInterceptor({
     this.minDelay = const Duration(milliseconds: 600),
